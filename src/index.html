@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Freela - He4rtDevs</title>
+  <link rel="stylesheet" href="./main.css" />
+
+</head>
+
+<body>
+
+
+  <header class='logo'>
+    <img src="./img/heart-logo.png" />
+  </header>
+
+  <div class='container'>
+
+    <div class='formularios'>
+      <form action="" id="form"></form>
+      <ul>
+
+        <li>Valor total do Projeto
+          <input type="number" id="valorProjeto" step="100" class="form" />
+        </li>
+
+        <li>Quantidade de horas trabalhada por dia
+          <input type="number" id="horasDiarias" class="form" />
+        </li>
+
+
+        <li>
+          Dias efeitvos trabalhados na semana
+          <input type="number" id="diasEfetivos" class="form" />
+        </li>
+
+        <li>Dias de férias durante o projeto
+          <input type="number" id="diasFerias" class="form" />
+        </li>
+
+        <li><button id='button' onclick="objeto.script()">
+            Calcular
+          </button></li>
+      </ul>
+      </form>
+    </div>
+
+    <div class="resultado">
+      <div class="caixa">
+        <p id="resultado">RESULTADO</p>
+      </div>
+    </div>
+
+  </div> <!-- fim container -->
+
+  <footer>José Luís - 2021</footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>
